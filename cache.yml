@@ -1,0 +1,52 @@
+!!com.aptana.scripting.model.BundleElement
+author: Christopher Williams
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: &id001 []
+    commandName: Validate Menu Entries
+    customProperties: null
+    displayName: Validate Menu Entries
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: This doesnt exist
+    customProperties: null
+    displayName: This doesnt exist
+    path: bundle.rb
+    scope: null
+  commandName: smoke-testing
+  customProperties: null
+  displayName: smoke-testing
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Validate Menu Entries
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: create_new_document
+  path: commands/validate_menus.rb
+  runType: current_thread
+  scope: null
+  workingDirectoryType: UNDEFINED
+copyright: '(c) Copyright 2011 appcelerator.com Distributed under MIT license.
+
+  '
+customProperties: null
+decreaseIndentMarkers: &id002 {}
+description: Commands to help smoke test the IDE
+displayName: smoke-testing
+fileTypeRegistry: *id002
+fileTypes: *id001
+foldingStartMarkers: *id002
+foldingStopMarkers: *id002
+increaseIndentMarkers: *id002
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: null
+visible: true
