@@ -1,19 +1,6 @@
 !!com.aptana.scripting.model.BundleElement
 author: Christopher Williams
 children:
-- !!com.aptana.scripting.model.CommandElement
-  async: false
-  customProperties: null
-  displayName: Validate Menu Entries
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: create_new_document
-  path: commands/validate_menus.rb
-  runType: current_thread
-  scope: null
-  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.MenuElement
   children:
   - children: &id002 []
@@ -27,6 +14,19 @@ children:
   displayName: Studio Smoke Testing
   path: bundle.rb
   scope: null
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Validate Menu Entries
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: create_new_document
+  path: commands/validate_menus.rb
+  runType: current_thread
+  scope: null
+  workingDirectoryType: UNDEFINED
 copyright: (c) Copyright 2011 appcelerator.com Distributed under MIT license.
 customProperties: null
 decreaseIndentMarkers: &id001 {}
